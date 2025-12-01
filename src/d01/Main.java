@@ -1,4 +1,4 @@
-package t01;
+package d01;
 
 import java.io.IOException;
 import java.nio.file.Path;
@@ -12,7 +12,7 @@ public class Main {
     public static int s1() {
         int r = 50;
         int c = 0;
-        try (var file = new Scanner(Path.of("src/t01/input"))) {
+        try (var file = new Scanner(Path.of("src/d01/input"))) {
             while (file.hasNextLine()) {
                 var line = file.nextLine();
                 if (line.isBlank()) {
@@ -42,7 +42,7 @@ public class Main {
     public static int s2() {
         int r = 50;
         int c = 0;
-        try (var file = new Scanner(Path.of("src/t01/input"))) {
+        try (var file = new Scanner(Path.of("src/d01/input"))) {
             while (file.hasNextLine()) {
                 var line = file.nextLine();
                 if (line.isBlank()) {
